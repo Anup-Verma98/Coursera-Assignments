@@ -1,12 +1,16 @@
-
+*,*::before,*::after{
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
 .container-fluid{
 	margin: 0;
 	padding: 0;
 }
 
 .navbar{
-	border-radius: 0px;
 	background-color: rgba(0,0,0,0.8);
+	border: none;
 }
 
 .navbar-brand{
@@ -31,8 +35,8 @@
   padding: 0;
 }
 
-.navbar-toggle{
-	margin-right: 1.65rem;
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+	margin-right:0;
 }
 
 .icon-bar{
@@ -49,11 +53,9 @@
   font-weight: bold;
 }
 .container-fluid > #navbarMain{
-	background-color: none;
-	border: none!important;
+	background-color: red;
 }
 li{
-	box-sizing: border-box;
 	width: 100%;
 }
 
@@ -62,10 +64,14 @@ li{
 	margin: 0;
 	width: 100%;
 	background-color: white;
-	border-bottom: 1px solid black;
 	color: black;
+	border: 1px solid black;
 	display: block;
 }
+li:last-child{
+	border-bottom: 1px solid black;
+}
+
 
 .menu-item:hover{
 	background-color: rgba(0,0,0,0.1);
