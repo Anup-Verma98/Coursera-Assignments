@@ -1,3 +1,4 @@
+
 .container-fluid{
 	margin: 0;
 	padding: 0;
@@ -31,8 +32,7 @@
 }
 
 .navbar-toggle{
-	border: 2px solid white;
-	margin-right: 25px;
+	margin-right: 1.65rem;
 }
 
 .icon-bar{
@@ -48,7 +48,10 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: bold;
 }
-
+.container-fluid > #navbarMain{
+	background-color: none;
+	border: none!important;
+}
 li{
 	box-sizing: border-box;
 	width: 100%;
@@ -65,7 +68,7 @@ li{
 }
 
 .menu-item:hover{
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.1);
 	color: rgba(0,0,0,0.4);
 }
 
@@ -80,8 +83,9 @@ li{
 	width: auto;
 	height: auto;
 	color: black;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(116, 103, 103, 0.2);
 	font-family: "Comic Sans MS";
+	box-shadow: 1px 1px 12px black;
 	padding: 20px;
 }
 
