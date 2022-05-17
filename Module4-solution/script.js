@@ -1,7 +1,7 @@
 "use-strict";
 
 (function () {
-  console.log("Code written by anup Verma!");
+  console.log("Code written by Anup Verma!");
 
   var names = [
     "Yaakov",
